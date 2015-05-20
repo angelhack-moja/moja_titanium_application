@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="index" class="container">
+		<!-- <ListView id="listView" defaultItemTemplate="template" top="20%">
+	            <Templates>
+	                <ItemTemplate name="template" id="template">
+	                	<View id="row" class="bckGradientGray">
+	                    	<ImageView  bindId="img" id="img" ></ImageView>
+	                    	<Label bindId="lbl_name" id="lbl_name" />
+	                    	<Button bindId="b_play" id="b_play" touchEnabled="false"/>
+	                    </View>
+	                </ItemTemplate>
+	            </Templates>
+			</ListView> -->
+			
+			
+			
+			
+			
+	</Window>
+</Alloy>

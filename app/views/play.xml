@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="w_play">
+		<View width="90%" height="60%" backgroundColor="transparent">
+			<WebView id="web_view" url='http://www.google.com'></WebView>
+		</View>
+		
+		<Button id="b_send" onClick="send" width="200" height="50dp" text="Finish"></Button>
+			
+	</Window>
+</Alloy>

@@ -1,0 +1,14 @@
+"#v_star":{
+	layout: "horizontal",
+	touchEnabled: false
+}
+
+"Label":{
+	color:"black"
+}
+
+".star":{
+	image: "/star_full.png",
+	width: "30dp",
+	height: "30dp"
+}

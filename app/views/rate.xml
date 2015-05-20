@@ -1,0 +1,15 @@
+<Alloy>
+	<Window id="w_rate" backgroundColor="transparent">
+		<View top="0" left="0" right="0" bottom="0" backgroundColor="black" opacity="0.3"/>
+		<View id="v_container" height="150dp" layout="vertical" backgroundColor="#2c3e50">
+			<Label top="20dp" text="Rate the quest"></Label>
+			<View layout="horizontal" left="20dp" right="20dp" height="90dp">
+				<ImageView id="v1" image="/star_empty.png" onClick="rate1" class="img" left="20dp"></ImageView>
+				<ImageView id="v2" image="/star_empty.png" onClick="rate2" class="img"></ImageView>
+				<ImageView id="v3" image="/star_empty.png" onClick="rate3" class="img"></ImageView>
+				<ImageView id="v4" image="/star_empty.png" onClick="rate4" class="img"></ImageView>
+				<ImageView id="v5" image="/star_empty.png" onClick="rate5" class="img"></ImageView>
+			</View>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,32 @@
+'Window[platform=ios]':{
+    navBarHidden:true,
+    top:"20dp",
+    // backgroundImage: "/background.png"
+    backgroundColor: "#2c3e50"
+}
+'Window[platform=android]':{
+    // backgroundImage: "/background.png"
+    backgroundColor: "#2c3e50"
+}
+
+".bckGradientGray":{
+    backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '50%', y: '0%' },
+        endPoint:   { x: '50%', y: '100%' },
+        colors: [
+                    { color: '#efefea', offset: 0.25 },
+                    { color: '#d5d5c8', offset: 1.0 } ],
+    }
+}
+
+".bckGradientOrange":{
+    backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '50%', y: '0%' },
+        endPoint:   { x: '50%', y: '100%' },
+        colors: [
+                    { color: '#d5d5c8', offset: 0.25 },
+                    { color: '#8a8a82', offset: 1.0 } ],
+    }
+}

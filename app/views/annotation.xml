@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="v_star">
+		<Label id="lbl_nr"></Label>
+		<ImageView id="star1" class="star"></ImageView>
+		<Label id="lbl_title"></Label>
+	</View>
+</Alloy>
